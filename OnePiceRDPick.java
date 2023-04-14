@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class OnePiceRDPick {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("D:\\1.28\\one_pice.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("D:\\Funny\\one_pice.txt"));
         String[] character = new String[63];
         for (int i = 0; i < 63; i++) {
             character[i] = br.readLine();
